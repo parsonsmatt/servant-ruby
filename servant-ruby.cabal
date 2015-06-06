@@ -24,8 +24,8 @@ source-repository head
         location:       https://www.github.com/parsonsmatt/servant-ruby
 
 library
-  -- exposed-modules:     
-  -- other-modules:       
+  exposed-modules:     Servant.Ruby
+  other-modules:       Servant.Ruby.Internal       
   -- other-extensions:    
   build-depends:       base >=4.7 && <5
                      , servant == 0.4.*
